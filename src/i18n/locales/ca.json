@@ -1,0 +1,17 @@
+{
+  "appTitle": "El Racó Gourmet",
+  "categories": {
+    "breakfast": "Esmorzars",
+    "coffee": "Cafès",
+    "drinks": "Begudes",
+    "meals": "Menjars",
+    "desserts": "Postres"
+  },
+  "menuItem": {
+    "ingredients": "Ingredients",
+    "price": "{{price}}€",
+    "showDetails": "Veure detalls",
+    "hideDetails": "Amagar detalls"
+  },
+  "language": "Idioma"
+}

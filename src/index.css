@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+  --font-size-base: 16px;
+  
+  /* Tema claro (predeterminado) */
+  --color-primary: #f59e0b;
+  --color-primary-dark: #d97706;
+  --color-primary-light: #fcd34d;
+  --color-text: #292524;
+  --color-text-light: #78716c;
+  --color-background: #ffffff;
+  --color-card-bg: #ffffff;
+  --color-card-border: #f3f4f6;
+  --color-card-shadow: rgba(0, 0, 0, 0.05);
+}
+
+/* Variables para tema oscuro */
+.dark {
+  --color-primary: #fbbf24;
+  --color-primary-dark: #f59e0b;
+  --color-primary-light: #fcd34d;
+  --color-text: #e5e7eb;
+  --color-text-light: #9ca3af;
+  --color-background: #1f2937;
+  --color-card-bg: #374151;
+  --color-card-border: #4b5563;
+  --color-card-shadow: rgba(0, 0, 0, 0.2);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-size: var(--font-size-base);
+  }
+  
+  body {
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    line-height: 1.25;
+  }
+  
+  img {
+    content-visibility: auto;
+  }
+  
+  /* Ajustamos tamaños específicos escalables */
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  h3 { font-size: 1.125rem; }
+  p { font-size: 1rem; }
+  .text-xs { font-size: 0.75rem; }
+  .text-sm { font-size: 0.875rem; }
+  .text-lg { font-size: 1.125rem; }
+  .text-xl { font-size: 1.25rem; }
+  .text-2xl { font-size: 1.5rem; }
+}
+
+/* Mejora de accesibilidad: Foco visible para navegación por teclado */
+@layer utilities {
+  .focus-outline:focus-visible {
+    @apply outline-amber-500 outline-2 outline-offset-2 dark:outline-amber-400;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+/* Desactivar scroll-behavior para preferencias de usuario reducidas de movimiento */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Estilos personalizados para componentes */
+@layer components {
+  .btn-primary {
+    @apply bg-amber-500 text-white rounded-md px-4 py-2 font-medium hover:bg-amber-600 transition-colors focus-outline dark:bg-amber-600 dark:hover:bg-amber-700;
+  }
+
+  .text-link {
+    @apply text-amber-600 hover:text-amber-700 underline transition-colors focus-outline dark:text-amber-400 dark:hover:text-amber-300;
+  }
+  
+  .menu-item-container {
+    @apply bg-white rounded-lg shadow-sm hover:shadow transition-shadow duration-300 p-3 dark:bg-stone-800 dark:border dark:border-stone-700 dark:hover:border-stone-600;
+  }
+  
+  .category-button {
+    @apply px-3 py-2 text-sm font-bold transition-colors duration-200 rounded-full focus-outline;
+  }
+  
+  .category-button-active {
+    @apply bg-amber-500 text-white shadow dark:bg-amber-600;
+  }
+  
+  .category-button-inactive {
+    @apply bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-stone-700 dark:text-stone-300 dark:hover:bg-stone-600;
+  }
+  
+  /* Accesibilidad */
+  .accessibility-controls {
+    @apply fixed bottom-20 right-4 z-40 bg-white dark:bg-stone-800 rounded-md shadow-md p-2 border border-gray-200 dark:border-stone-700;
+  }
+}

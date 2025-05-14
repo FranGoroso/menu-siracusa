@@ -1,0 +1,17 @@
+{
+  "appTitle": "Le Coin Gourmet",
+  "categories": {
+    "breakfast": "Petit-déjeuner",
+    "coffee": "Cafés",
+    "drinks": "Boissons",
+    "meals": "Plats",
+    "desserts": "Desserts"
+  },
+  "menuItem": {
+    "ingredients": "Ingrédients",
+    "price": "{{price}}€",
+    "showDetails": "Voir détails",
+    "hideDetails": "Masquer détails"
+  },
+  "language": "Langue"
+}

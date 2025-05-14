@@ -1,0 +1,40 @@
+{
+  "appTitle": "HOTEL SIRACUSA BAR-RESTAURANT",
+  "categories": {
+    "sandwiches": "Sandwiches",
+    "supplements": "Supplements",
+    "eggs": "Special Eggs",
+    "kids": "Kids Menu",
+    "cafeteria": "Cafeteria",
+    "lunch": "Lunch",
+    "salads": "Salads",
+    "lactoseFree": "Lactose Free",
+    "soups": "Soups",
+    "vegetarian": "Vegetarian",
+    "glutenFree": "Gluten Free",
+    "drinks": "Drinks",
+    "juices": "Juices",
+    "beers": "Beers",
+    "smallBeers": "Small Beers",
+    "otherDrinks": "Other Drinks",
+    "iberianHam": "Iberian Ham",
+    "nav": "Categories navigation"
+  },
+  "menuItem": {
+    "ingredients": "Ingredients",
+    "price": "€{{price}}",
+    "priceLabel": "Price: €{{price}}",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details"
+  },
+  "menuCategory": {
+    "items": "{{category}} items"
+  },
+  "footer": {
+    "rights": "© 2025 HOTEL SIRACUSA BAR-RESTAURANT. All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "language": "Language",
+  "language.selector": "Language selector",
+  "language.change": "Change language to {{language}}"
+}

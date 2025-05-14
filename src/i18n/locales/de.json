@@ -1,0 +1,17 @@
+{
+  "appTitle": "Die Gourmet-Ecke",
+  "categories": {
+    "breakfast": "Frühstück",
+    "coffee": "Kaffee",
+    "drinks": "Getränke",
+    "meals": "Mahlzeiten",
+    "desserts": "Desserts"
+  },
+  "menuItem": {
+    "ingredients": "Zutaten",
+    "price": "{{price}}€",
+    "showDetails": "Details anzeigen",
+    "hideDetails": "Details ausblenden"
+  },
+  "language": "Sprache"
+}

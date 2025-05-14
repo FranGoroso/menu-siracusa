@@ -1,0 +1,68 @@
+{
+  "appTitle": "HOTEL SIRACUSA BAR-RESTAURANT",
+  "categories": {
+    "sandwiches": "Entrepa / Bocatas",
+    "supplements": "Suplementos",
+    "eggs": "Huevos Especiales",
+    "kids": "Menú Infantil",
+    "cafeteria": "Cafetería",
+    "lunch": "Almuerzo",
+    "salads": "Ensaladas",
+    "lactoseFree": "Sin Lactosa",
+    "soups": "Sopas",
+    "vegetarian": "Vegetariano",
+    "glutenFree": "Sin Gluten",
+    "drinks": "Bebidas",
+    "juices": "Zumos",
+    "beers": "Cervezas",
+    "smallBeers": "Cerveza Quinto",
+    "otherDrinks": "Otras Bebidas",
+    "iberianHam": "Pernil Ibérico",
+    "nav": "Navegación de categorías"
+  },
+  "menuItem": {
+    "ingredients": "Ingredientes",
+    "price": "{{price}}€",
+    "priceLabel": "Precio: {{price}} euros",
+    "showDetails": "Ver detalles",
+    "hideDetails": "Ocultar detalles"
+  },
+  "menuCategory": {
+    "items": "Elementos de {{category}}"
+  },
+  "footer": {
+    "rights": "© 2025 HOTEL SIRACUSA BAR-RESTAURANT. Todos los derechos reservados.",
+    "backToTop": "Volver arriba"
+  },
+  "language": "Idioma",
+  "language.selector": "Selector de idioma",
+  "language.change": "Cambiar idioma a {{language}}",
+  "favorites": {
+    "title": "Tus favoritos",
+    "add": "Añadir a favoritos",
+    "remove": "Eliminar de favoritos",
+    "added": "{{itemName}} añadido a favoritos",
+    "removed": "{{itemName}} eliminado de favoritos",
+    "empty": "No tienes favoritos guardados",
+    "save": "Guardar favoritos",
+    "clear": "Limpiar favoritos"
+  },
+  "errors": {
+    "generic": "Ha ocurrido un error inesperado",
+    "loading": "Error al cargar los datos",
+    "retry": "Reintentar",
+    "loadingFavorites": "No se pudieron cargar tus favoritos",
+    "loadingCategory": "No se pudieron cargar los elementos de {{category}}"
+  },
+  "accessibility": {
+    "skip": "Saltar al contenido principal",
+    "darkMode": "Cambiar a modo oscuro",
+    "lightMode": "Cambiar a modo claro"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "noResults": "No se encontraron resultados",
+    "welcome": "Bienvenido a nuestro menú digital",
+    "close": "Cerrar"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "appTitle": "O Canto Gourmet",
+  "categories": {
+    "breakfast": "Café da manhã",
+    "coffee": "Cafés",
+    "drinks": "Bebidas",
+    "meals": "Refeições",
+    "desserts": "Sobremesas"
+  },
+  "menuItem": {
+    "ingredients": "Ingredientes",
+    "price": "{{price}}€",
+    "showDetails": "Ver detalhes",
+    "hideDetails": "Esconder detalhes"
+  },
+  "language": "Idioma"
+}
